@@ -1,0 +1,119 @@
+/* ---------- Base Page Styling ---------- */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0faff;
+  color: #222;
+  margin: 0;
+  padding: 2em;
+  text-align: center;
+}
+
+/* ---------- Header Layout with Headshot and Intro ---------- */
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 2em;
+  flex-wrap: wrap;
+}
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00bcd4; /* light blue */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+  text-align: left;
+  max-width: 400px;
+}
+
+.name {
+  font-size: 2.8em;
+  margin: 0;
+  color: #00796b; /* teal green */
+}
+
+.pronunciation {
+  font-size: 0.95em;
+  font-style: italic;
+  color: #666;
+  margin-top: -0.5em;
+  margin-bottom: 0.8em;
+}
+
+.intro-text p {
+  font-size: 1.1em;
+  margin: 0.4em 0;
+  color: #444;
+}
+
+/* ---------- Bio Section ---------- */
+.bio {
+  max-width: 900px;
+  margin: 3em auto;
+  font-size: 1.15em;
+  line-height: 1.8;
+  color: #222;
+}
+
+.bio-block {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.6em;
+}
+
+.subtitle {
+  font-weight: bold;
+  color: #00796b;
+  font-family: Helvetica, sans-serif;
+  min-width: 110px;     /* Adjust width to fit your longest label */
+  flex-shrink: 0;
+}
+
+.body-text {
+  margin: 0;
+  text-align: left;
+  text-indent: 0;
+}
+/* ---------- Navigation Links ---------- */
+nav {
+  margin: 2em 0 1em 0;
+}
+
+nav a {
+  margin: 0 1em;
+  text-decoration: underline;       /* make them underlined */
+  font-weight: bold;
+  color: #00bcd4;                   /* light blue */
+  font-size: 1.2em;                 /* increase font size */
+}
+
+nav a:hover {
+  color: #00796b;                   /* teal on hover */
+  text-decoration: none;
+}
+
+/* ---------- Social Media Links ---------- */
+.socials {
+  margin-top: 1em;
+}
+
+.socials a {
+  margin: 0 1.5em;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1em;
+  color: #444;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  margin-top: 3em;
+  font-size: 0.9em;
+  color: #888;
+}
